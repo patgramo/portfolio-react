@@ -1,0 +1,30 @@
+/******** MOBILE ********/
+.hero div{
+  width: 100%;
+  position: static;
+}
+
+.hero-title {
+  width: 100%;
+  color: white;
+  padding-top: 3em;
+  padding-left: 10vw;
+  margin: 0;
+  font-size: 50px;
+}
+
+.hero-desc {
+  color: white;
+  text-shadow: 1px;
+  padding-left: 10vw;
+}
+
+/******** TABLET ********/
+@media all and (min-width: 768px) {
+
+}
+
+/******** DESKTOP ********/
+@media (min-width: 1200px) {
+ 
+}

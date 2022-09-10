@@ -1,0 +1,46 @@
+/******** MOBILE ********/
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: start;
+  border: 1px black solid;
+  text-align: center;
+  width: 25%;
+  height: 25em;
+  margin: 1em;
+  padding: 1em;
+  overflow: auto;
+  box-shadow: 10px 10px 30px gray;
+  background-color:bisque;
+}
+
+.card:hover .card-title {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+}
+
+.card a {
+  color: black;
+}
+/******** TABLET ********/
+@media all and (min-width: 768px) {
+
+}
+
+/******** DESKTOP ********/
+@media (min-width: 1200px) {
+}

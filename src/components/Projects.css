@@ -1,0 +1,19 @@
+/******** MOBILE ********/
+
+#projects-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/******** TABLET ********/
+@media all and (min-width: 768px) {
+
+}
+
+/******** DESKTOP ********/
+@media (min-width: 1200px) {
+ 
+}
+

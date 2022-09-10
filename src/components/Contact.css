@@ -1,0 +1,40 @@
+/******** MOBILE ********/
+#contact-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.left-side {
+  max-width: 45%;
+}
+
+.form {
+  max-width: 45%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.name,
+.email,
+.subject,
+.project {
+  margin: 1em;
+  width: 100%;
+}
+
+.contact-button {
+  margin: 1em;
+}
+
+/******** TABLET ********/
+@media all and (min-width: 768px) {
+
+}
+
+/******** DESKTOP ********/
+@media (min-width: 1200px) {
+ 
+}

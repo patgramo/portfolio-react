@@ -1,0 +1,38 @@
+/******** MOBILE ********/
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: black;
+  position: sticky;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+li a {
+  color: white;
+}
+
+.logo {
+  color: gray;
+  font-size: 2em;
+}
+
+/******** TABLET ********/
+@media all and (min-width: 768px) {
+
+}
+
+/******** DESKTOP ********/
+@media (min-width: 1200px) {
+ 
+}
